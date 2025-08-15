@@ -3,24 +3,67 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  
+  /* GutLog Color Palette */
+  --gutlog-primary: #0d78f2;
+  --gutlog-secondary: #49709c;
+  --gutlog-accent: #0d78f2;
+  --gutlog-text: #0d141c;
+  --gutlog-text-secondary: #49709c;
+  --gutlog-background: #f8fafc;
+  --gutlog-card: #e7edf3;
+  --gutlog-border: #e7edf4;
+  --gutlog-success: #07883b;
+  --gutlog-error: #e73908;
+  --gutlog-white: #ffffff;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-sans: var(--font-manrope);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-manrope), Arial, Helvetica, sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus styles for accessibility */
+*:focus {
+  outline: 2px solid var(--gutlog-primary);
+  outline-offset: 2px;
+}
+
+/* Button hover effects */
+.btn-primary {
+  @apply bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-full transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5;
+}
+
+.btn-secondary {
+  @apply border-2 border-slate-300 text-slate-700 font-semibold py-3 px-6 rounded-full hover:border-blue-600 hover:text-blue-600 transition-all duration-200;
 }
