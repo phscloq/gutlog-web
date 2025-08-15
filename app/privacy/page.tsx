@@ -42,7 +42,7 @@ export default function PrivacyPolicy() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-slate-900 mb-4">1. Introduction</h2>
               <p className="text-slate-700 mb-4">
-                Welcome to GutLog ("we," "us," or "our"). We are deeply committed to your privacy. This policy explains what information the GutLog App (the "App") collects and how it is used.
+                Welcome to GutLog (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;). We are deeply committed to your privacy. This policy explains what information the GutLog App (the &ldquo;App&rdquo;) collects and how it is used.
               </p>
               <p className="text-slate-700 mb-4">
                 Our core privacy promise to you is simple: <strong>All of your personal health data is stored exclusively on your device.</strong> We do not have servers that store your logs, and we do not have access to the sensitive health information you enter into the App. You are in complete control of your data.
@@ -75,7 +75,7 @@ export default function PrivacyPolicy() {
 
               <h3 className="text-xl font-semibold text-slate-800 mb-3">C. Anonymous Information We Collect to Improve the App:</h3>
               <p className="text-slate-700 mb-4">
-                <strong>Anonymous Usage Data:</strong> We may collect anonymous, aggregated data about how you interact with the App, such as which features are used most often and crash reports. This data is not linked to you or your health data in any way and helps us improve the App's performance and user experience.
+                <strong>Anonymous Usage Data:</strong> We may collect anonymous, aggregated data about how you interact with the App, such as which features are used most often and crash reports. This data is not linked to you or your health data in any way and helps us improve the App&apos;s performance and user experience.
               </p>
               <p className="text-slate-700 mb-4">
                 <strong>Device Information:</strong> We may collect non-identifying information about your device, such as the device model and operating system version, to help us troubleshoot technical issues.
@@ -88,7 +88,7 @@ export default function PrivacyPolicy() {
                 <li><strong>To Provide App Functionality:</strong> Your health data is used by the App on your device to provide you with its core features, such as logging, tracking history, and generating analytics and reports.</li>
                 <li><strong>To Generate Reports:</strong> The App uses the data on your device to create PDF reports. You have the sole discretion to download and share these reports with anyone you choose, such as a healthcare provider. The App does not automatically share this information.</li>
                 <li><strong>To Improve Our App:</strong> We use the anonymous and aggregated usage data to understand how our users as a group use GutLog, allowing us to identify bugs and make improvements. This data contains no personal health information.</li>
-                <li><strong>To Manage Your Subscription:</strong> Your subscription status is managed securely through Apple's In-App Purchase service. We receive an anonymous confirmation from Apple about your subscription status to unlock premium features but have no access to your payment information.</li>
+                <li><strong>To Manage Your Subscription:</strong> Your subscription status is managed securely through Apple&apos;s In-App Purchase service. We receive an anonymous confirmation from Apple about your subscription status to unlock premium features but have no access to your payment information.</li>
               </ul>
             </section>
 
@@ -113,7 +113,7 @@ export default function PrivacyPolicy() {
               
               <h3 className="text-xl font-semibold text-slate-800 mb-3">No Cloud Storage:</h3>
               <p className="text-slate-700 mb-4">
-                We do not use any cloud servers to store your personal logs. Your data is not backed up by us. If you delete the App or lose your device, your data will be lost unless you have created your own device backup through Apple's services (e.g., iCloud Backup).
+                We do not use any cloud servers to store your personal logs. Your data is not backed up by us. If you delete the App or lose your device, your data will be lost unless you have created your own device backup through Apple&apos;s services (e.g., iCloud Backup).
               </p>
 
               <h3 className="text-xl font-semibold text-slate-800 mb-3">Device Security:</h3>
@@ -134,7 +134,7 @@ export default function PrivacyPolicy() {
             </section>
 
             <section className="mb-8">
-              <h2 className="text-2xl font-semibold text-slate-900 mb-4">7. Children's Privacy</h2>
+              <h2 className="text-2xl font-semibold text-slate-900 mb-4">7. Children&apos;s Privacy</h2>
               <p className="text-slate-700 mb-4">
                 The GutLog App is not intended for use by individuals under the age of 16. We do not knowingly collect any information from children. All data is user-generated on their own device.
               </p>
@@ -143,14 +143,14 @@ export default function PrivacyPolicy() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-slate-900 mb-4">8. Third-Party Services</h2>
               <p className="text-slate-700 mb-4">
-                We use Apple's In-App Purchase service to handle subscriptions. Your payment information is processed by Apple, and we encourage you to review Apple's Privacy Policy.
+                We use Apple&apos;s In-App Purchase service to handle subscriptions. Your payment information is processed by Apple, and we encourage you to review Apple&apos;s Privacy Policy.
               </p>
             </section>
 
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-slate-900 mb-4">9. Changes to This Privacy Policy</h2>
               <p className="text-slate-700 mb-4">
-                We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new policy within the App and updating the "Effective Date."
+                We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new policy within the App and updating the &ldquo;Effective Date.&rdquo;
               </p>
             </section>
 

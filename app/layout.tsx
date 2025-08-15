@@ -9,6 +9,7 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://gutlog.app"),
   title: "GutLog - Track Your Bowel Health",
   description: "Monitor and track your bowel health with GutLog, the comprehensive iOS app for digestive wellness. Log entries, visualize trends, and generate doctor-ready PDF reports.",
   keywords: ["bowel health", "digestive wellness", "health tracking", "iOS app", "stool tracker", "IBS", "digestive health"],
