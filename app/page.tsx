@@ -296,7 +296,7 @@ export default function Home() {
       </section>
 
       {/* Medical Disclaimer */}
-      <section className="py-12 bg-white">
+     {/*  <section className="py-12 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-6">
             <h3 className="text-lg font-semibold text-amber-800 mb-2">Medical Disclaimer</h3>
@@ -306,7 +306,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+ */}
       {/* Footer */}
       <footer className="bg-slate-900 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
