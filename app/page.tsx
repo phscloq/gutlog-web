@@ -486,7 +486,9 @@ export default function Home() {
                 </li>
                 <li>
                   <Link
-                    href="#"
+                    href="https://changelog.ybarandogan.com/gutlog"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-slate-300 hover:text-white transition-colors"
                   >
                     Updates
